@@ -16,3 +16,14 @@ function massage(a) {
 }
 massage("How are you");
 
+// #4
+let example8 = [45, 33, 11, 60, 3, 10, 15];
+for (let i = 0; example8.length > i; i++) {
+  let num = example8[i];
+  if (num % 2 === 0) {
+  console.log(num + " - Odd");
+  }
+  else {
+    console.log(num + " - Even");
+  } 
+}
