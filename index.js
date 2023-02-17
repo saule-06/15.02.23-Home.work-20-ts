@@ -57,6 +57,13 @@ for(i = 0; i <= number1; i++) {
   }
 }
 
+// #9
 
+// #10
+let number2 = 10;
+for (i = 0; i <= number2; i++) {
+  result = i ** 2; 
+    console.log(result);
+}
 
 
