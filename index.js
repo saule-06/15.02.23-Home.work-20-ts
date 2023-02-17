@@ -1,3 +1,4 @@
+// #1
 function myName(name, surname) {
   console.log("My name is " + name + surname);
 }
@@ -27,3 +28,12 @@ for (let i = 0; example8.length > i; i++) {
     console.log(num + " - Even");
   } 
 }
+
+//#5
+function san(a) {
+  total = a ** 2;
+  console.log(total);
+}
+san(4);
+
+//#6
