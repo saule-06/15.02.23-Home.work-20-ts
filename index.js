@@ -37,3 +37,7 @@ function san(a) {
 san(4);
 
 //#6
+function num(b) {
+  console.log(Math.sqrt(b));
+}
+num(9);
