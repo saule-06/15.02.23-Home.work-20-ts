@@ -49,3 +49,14 @@ function perimeterofaPentagon(a, b, c, d, e) {
 }
 perimeterofaPentagon(3, 4, 2, 6, 8);
 
+// #8
+let number1 = 33;
+for(i = 0; i <= number1; i++) {
+  if (i % 3 === 0) {
+  console.log(i);
+  }
+}
+
+
+
+
