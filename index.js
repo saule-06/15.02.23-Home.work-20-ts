@@ -7,13 +7,13 @@ myName("Saule ", " Toigonbaeva");
 // #2
 function coneVolume(height, radius) {
   cVolume =  ((height * 3.14 * (radius) ** 2) / 3);
-  console.log(cVolume);
+  console.log("Объем конуса равен - " + cVolume);
 }
 coneVolume(8, 3);
 
 // #3
 function massage(a) {
-  console.log(a.length);
+  console.log("Длина строки равна - " + a.length);
 }
 massage("How are you");
 
@@ -32,12 +32,20 @@ for (let i = 0; example8.length > i; i++) {
 //#5
 function san(a) {
   total = a ** 2;
-  console.log(total);
+  console.log("Квадрат этого числа равен - " + total);
 }
 san(4);
 
 //#6
 function num(b) {
-  console.log(Math.sqrt(b));
+  console.log("Корень этого числа равен - " + Math.sqrt(b));
 }
 num(9);
+
+// #7 
+function perimeterofaPentagon(a, b, c, d, e) {
+  perimeter = a + b + c + d + e;
+  console.log("Периметр пятиугольника равна -  " + perimeter);
+}
+perimeterofaPentagon(3, 4, 2, 6, 8);
+
