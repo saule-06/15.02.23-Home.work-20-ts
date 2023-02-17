@@ -80,3 +80,10 @@ for (a = 0; a <= 20; a++ ) {
     console.log(a);
   }
 }
+
+// #13
+for (b = 0; b <= 15; b++) {
+  if (b % 2 ==! 0) {
+    console.log(b);
+  }
+}
