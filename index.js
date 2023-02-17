@@ -51,7 +51,7 @@ perimeterofaPentagon(3, 4, 2, 6, 8);
 
 // #8
 let number1 = 33;
-for(i = 0; i <= number1; i++) {
+for(let i = 0; i <= number1; i++) {
   if (i % 3 === 0) {
   console.log(i);
   }
@@ -61,9 +61,22 @@ for(i = 0; i <= number1; i++) {
 
 // #10
 let number2 = 10;
-for (i = 0; i <= number2; i++) {
+for (let i = 0; i <= number2; i++) {
   result = i ** 2; 
     console.log(result);
 }
 
+// // #11
+// let n = a, b;
+// for(let i = 0; i < n.length; i++) {
+//   tot = i + n[i];
+//   console.log(tot);
+// }
+// n(1, 25);
 
+// #12
+for (a = 0; a <= 20; a++ ) {
+  if (a % 2 === 0) {
+    console.log(a);
+  }
+}
