@@ -1,3 +1,4 @@
 function myName(name, surname) {
-  console.log(myName);
+  console.log("My name is " + name + surname);
 }
+myName("Saule ", " Toigonbaeva");
