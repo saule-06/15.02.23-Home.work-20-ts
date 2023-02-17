@@ -8,3 +8,4 @@ function coneVolume(height, radius) {
   cVolume =  ((height * 3.14 * (radius) ** 2) / 3);
   console.log(cVolume);
 }
+coneVolume(8, 3);
