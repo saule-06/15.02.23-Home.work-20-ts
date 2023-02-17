@@ -9,3 +9,10 @@ function coneVolume(height, radius) {
   console.log(cVolume);
 }
 coneVolume(8, 3);
+
+// #3
+function massage(a) {
+  console.log(a.length);
+}
+massage("How are you");
+
