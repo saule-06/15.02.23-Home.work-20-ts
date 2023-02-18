@@ -106,3 +106,7 @@ console.log(sans);
 // #16
 let line = ["I", "like", "to", "eat!"];
 console.log(line.join(' '));
+
+// #17
+let numbers = ["one", "two", "three"];
+console.log(numbers.reverse());
