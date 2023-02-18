@@ -87,3 +87,15 @@ for (b = 0; b <= 15; b++) {
     console.log(b);
   }
 }
+
+// #14
+let sans = ["Aidai", "Nazi", "Sezim", "Tilek"];
+console.log(sans);
+
+sans.unshift("Aibek");
+sans.unshift("Merim");
+sans.push("Rob"); 
+sans.push("Dail"); 
+sans.push("Kasi");
+
+console.log(sans);
