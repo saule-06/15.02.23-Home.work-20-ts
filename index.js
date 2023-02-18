@@ -99,3 +99,10 @@ sans.push("Dail");
 sans.push("Kasi");
 
 console.log(sans);
+
+// #15
+
+
+// #16
+let line = ["I", "like", "to", "eat!"];
+console.log(line.join(' '));
