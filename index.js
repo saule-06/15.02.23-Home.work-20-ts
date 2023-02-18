@@ -110,3 +110,9 @@ console.log(line.join(' '));
 // #17
 let numbers = ["one", "two", "three"];
 console.log(numbers.reverse());
+
+// #18
+let frends = ["Adil", "Aibek", "Akjol"];
+for (let i = 0; i < frends.length; i++) {
+  console.log("Hello " + frends[i]);
+}
