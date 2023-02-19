@@ -58,6 +58,14 @@ for(let i = 0; i <= number1; i++) {
 }
 
 // #9
+function factorial(n) {
+  for(let result = 1; n > 1; n--) {
+    result = result * n;
+    console.log(result);
+  }
+}
+factorial(8);
+
 
 // #10
 let number2 = 10;
@@ -66,13 +74,7 @@ for (let i = 0; i <= number2; i++) {
     console.log(result);
 }
 
-// // #11
-// let n = a, b;
-// for(let i = 0; i < n.length; i++) {
-//   tot = i + n[i];
-//   console.log(tot);
-// }
-// n(1, 25);
+// #11
 
 // #12
 for (a = 0; a <= 20; a++ ) {
@@ -123,3 +125,5 @@ for (let i = 0; i < n.length; i++) {
   total2 = n[i] ** 2;
   console.log(total2);
 }
+
+// #20
