@@ -75,6 +75,11 @@ for (let i = 0; i <= number2; i++) {
 }
 
 // #11
+let summa = 0;
+for (let i = 0; i <= 25; i++) {
+  summa = summa + i;
+}
+console.log(summa + " - это сумма чисел от 1 до 25");
 
 // #12
 for (a = 0; a <= 20; a++ ) {
